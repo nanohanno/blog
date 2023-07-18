@@ -3,3 +3,12 @@ title: "Hanno's personal blog"
 author: Hanno Küpers
 github_username: nanohanno
 linkedin_username: hanno-kupers
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap #
