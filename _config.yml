@@ -1,4 +1,4 @@
-theme: jekyll-theme-clean-blog
+remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 title: "Hanno's personal blog"
 author: Hanno Küpers
 github_username: nanohanno
