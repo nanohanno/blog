@@ -3,7 +3,7 @@ layout: post
 title: "Docker and linux processes"
 subtitle: "Where are my logs, man?"
 date: 2023-07-21
-background: "images/default_post.jpg"
+background: '/images/default_post.jpg'
 ---
 Docker logs seems so simple when it works. If logs are missing there are many things one needs to consider, especially in systems that on inherits. Hm, PYTHONUNBUFFERED? Logging handler? Debug level?
 
@@ -41,7 +41,7 @@ Those logs vanish in the container nirvana ending up in a file descriptor that w
 
 Docker has so many levels of understanding to it that you can always go a level deeper to understand things that were abstracted away and you never needed to care for it. 
 
-A lot of irritation, a lot to learn :book:
+A lot of irritation, a lot to learn &#128218;
 
 
 ## Resources
