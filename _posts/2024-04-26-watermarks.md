@@ -2,7 +2,7 @@
 layout: post
 title: "Watermarks"
 subtitle: "Am I complete?"
-date: 2024-04-19
+date: 2024-04-26
 background: '/images/default_post.jpg'
 ---
 In stream processing, everything is based on event time, which gives events from different sources a notion of their place in time. This is important because in event streams we do not have the security that we have seen all events as we have when processing bounded streams like in batch data.
