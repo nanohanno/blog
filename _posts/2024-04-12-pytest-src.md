@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Pytest and the src"
-subtitle: "Testing the packaging"
+title: Pytest and the src
+subtitle: Testing the packaging
 date: 2024-04-12
-background: '/images/default_post.jpg'
+background: /images/default_post.jpg
 ---
+
 This week, I was working on getting a testing stage in CI fixed. It sounds trivial but lead to a couple of insights again how tests are executed in Python.
 
 Python with its dynamic nature and unopiniated tooling give a lot of room for interpretation how tests should be executed. Today most people will rely on `pytest` as the standard tool to write and execute tests. But what does that execution actually mean?
@@ -38,7 +39,7 @@ Now, we should be sure that the tests are running on the installed package versi
 
 ## Coverage
 
-When adding the coverage plugin to pytest to collect test coverage another surprise awaits. 
+When adding the coverage plugin to pytest to collect test coverage another surprise awaits.
 
 ```bash
 pytest -m 'unit' --cov
