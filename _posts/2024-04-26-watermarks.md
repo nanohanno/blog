@@ -1,15 +1,16 @@
 ---
 layout: post
-title: "Watermarks"
-subtitle: "Am I complete?"
+title: Watermarks
+subtitle: Am I complete?
 date: 2024-04-26
-background: '/images/default_post.jpg'
+background: /images/default_post.jpg
 ---
+
 In stream processing, everything is based on event time, which gives events from different sources a notion of their place in time. This is important because in event streams we do not have the security that we have seen all events as we have when processing bounded streams like in batch data.
 
 ## Distributed chaos
 
-Event streams can come from different sources, meaning actually that the producers could be different applications or running on different machines, they could be even edge devices running around all over the world. Next, the event queue, which holds and forwards these events, like Apache Kafka can be a distributed system, having multiple partitions over different servers. 
+Event streams can come from different sources, meaning actually that the producers could be different applications or running on different machines, they could be even edge devices running around all over the world. Next, the event queue, which holds and forwards these events, like Apache Kafka can be a distributed system, having multiple partitions over different servers.
 
 Eventually, all these distributed components can add specific latencies and instabilities to the system. A consumer, the stream processor, might read events from the same stream that come in via different routes which introduce different latencies. Eventually, the event time of these events is not in order anymore.
 
