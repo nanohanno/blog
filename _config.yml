@@ -5,6 +5,8 @@ github_username: nanohanno
 linkedin_username: hanno-kupers
 email: kuepers@posteo.de
 
+BASEPATH: https://nanohanno.github.io/blog
+
 # Build settings
 markdown: kramdown
 paginate: 5
